@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("heart_model.pkl")
 
 st.title("❤️ Heart Risk Prediction System")
-st.write("Welcome! Enter Details and Symptoms to Predict Heart Risk.")
+st.write("Welcome! Enter Details and Symptoms to Predict Heart Disease Risk.")
 
 age = st.number_input("Age", 20, 100)
 sex = st.selectbox("Sex", ["Male", "Female"])
